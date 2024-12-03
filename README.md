@@ -19,13 +19,13 @@ vim .env
 
 ```
 user='vector'
-password='xxx#'
-dsn='207.211.189.173:1521/vecpdb1'
+password='<password>'
+dsn='<ip>:1521/vecpdb1'
 min=1
 max=10
 increment=1
 
-text_embedding_url='http://207.211.189.173:8899/chat/text_embedding/'
+text_embedding_url='http://<ip>:8899/chat/text_embedding/'
 
 fetch_table='es_docs_10000'
 key_column='id'
@@ -35,7 +35,7 @@ update_sql='update es_docs_10000 set vec_content=:1 where id=:2'
 
 ```
 
-# 运行
+# 检查embed.py&运行
 
 ```
 python embed.py
