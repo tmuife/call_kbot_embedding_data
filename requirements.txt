@@ -1,0 +1,4 @@
+numpy==1.26.4
+oracledb==2.5.0
+python-decouple==3.8
+requests==2.32.3
